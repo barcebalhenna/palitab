@@ -1,6 +1,6 @@
 # palitab
 
-A new Flutter project.
+The application is entitled “Palitab”, derived from the Tagalog word for transformer. This name reflects the developers’ mission to transform the current state of education in the Philippines, particularly addressing challenges in students’ reading comprehension skills, which are often rooted in their early-grade reading habits. Palitab aims to provide an engaging and meaningful environment for reading and learning, especially for young children in early grades, as well as for learners who wish to strengthen their reading skills.
 
 ## Getting Started
 

@@ -55,7 +55,7 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   assets:
-    - assets/images/onboard_reading.svg
+    - assets/images/onboard_reading.png
     - assets/images/onboard_quiz.svg
     - assets/images/onboard_teacher.svg
     - assets/images/map_bg.png

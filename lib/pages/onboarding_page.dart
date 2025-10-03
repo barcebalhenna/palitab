@@ -13,9 +13,9 @@ class _OnboardingPageState extends State<OnboardingPage> {
 
   final List<Map<String, String>> slides = [
     {
-      'title': 'Welcome to Palitab',
-      'body': 'Discover bilingual stories that make reading fun, engaging, and meaningful.',
-      'image': 'assets/images/onboard_reading.svg',
+      'title': 'Welcome to Palitab!',
+      'body': 'Discover bilingual stories that make reading fun, engaging, and meaningful — transforming lives through reading.',
+      'image': 'assets/images/onboard_reading.png',
     },
     {
       'title': 'Unlock Stories & Quizzes',
@@ -23,8 +23,8 @@ class _OnboardingPageState extends State<OnboardingPage> {
       'image': 'assets/images/onboard_quiz.svg',
     },
     {
-      'title': 'Parents & Teachers',
-      'body': 'Track student progress with secure dashboards and listening tools.',
+      'title': 'For Parents & Teachers',
+      'body': 'Track progress with secure dashboards and listening tools that support every child’s growth.',
       'image': 'assets/images/onboard_teacher.svg',
     }
   ];
@@ -35,9 +35,9 @@ class _OnboardingPageState extends State<OnboardingPage> {
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [PalitabTheme.accentWarm, PalitabTheme.accentHot],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
+            colors: [Color(0xFFFFF6E5), Color(0xFFFFC371)], // soft warm gradient
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
           ),
         ),
         child: SafeArea(
@@ -48,8 +48,10 @@ class _OnboardingPageState extends State<OnboardingPage> {
                 alignment: Alignment.centerRight,
                 child: TextButton(
                   onPressed: () => Navigator.pushReplacementNamed(context, '/login'),
-                  child: const Text('Skip',
-                      style: TextStyle(color: Colors.white, fontSize: 16)),
+                  child: const Text(
+                    'Skip',
+                    style: TextStyle(color: Colors.black87, fontSize: 16),
+                  ),
                 ),
               ),
               Expanded(
@@ -64,7 +66,12 @@ class _OnboardingPageState extends State<OnboardingPage> {
                       child: Column(
                         children: [
                           Expanded(
-                            child: SvgPicture.asset(
+                            child: s['image']!.endsWith('.svg')
+                                ? SvgPicture.asset(
+                              s['image']!,
+                              fit: BoxFit.contain,
+                            )
+                                : Image.asset(
                               s['image']!,
                               fit: BoxFit.contain,
                             ),
@@ -74,9 +81,10 @@ class _OnboardingPageState extends State<OnboardingPage> {
                             s['title']!,
                             textAlign: TextAlign.center,
                             style: const TextStyle(
-                              fontSize: 30,
-                              fontWeight: FontWeight.bold,
-                              color: PalitabTheme.pureWhite,
+                              fontSize: 28,
+                              fontWeight: FontWeight.w800,
+                              color: Colors.black87,
+                              fontFamily: 'ComicNeue', // playful but readable
                             ),
                           ),
                           const SizedBox(height: 16),
@@ -85,7 +93,8 @@ class _OnboardingPageState extends State<OnboardingPage> {
                             textAlign: TextAlign.center,
                             style: const TextStyle(
                               fontSize: 18,
-                              color: PalitabTheme.pureWhite,
+                              color: Colors.black87,
+                              height: 1.4,
                             ),
                           ),
                           const SizedBox(height: 40),
@@ -107,37 +116,63 @@ class _OnboardingPageState extends State<OnboardingPage> {
                     height: 12,
                     decoration: BoxDecoration(
                       color: _page == i
-                          ? PalitabTheme.pureWhite
-                          : PalitabTheme.pureWhite.withOpacity(0.4),
+                          ? Colors.deepOrange
+                          : Colors.deepOrange.withOpacity(0.4),
                       borderRadius: BorderRadius.circular(20),
                     ),
                   ),
                 ),
               ),
-              // Next / Get Started button
+              // Buttons (Next / Get Started + Log In on last page)
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 24),
-                child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    minimumSize: const Size(double.infinity, 56),
-                    backgroundColor: PalitabTheme.purple,
-                    foregroundColor: Colors.white,
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(16)),
-                  ),
-                  onPressed: () {
-                    if (_page == slides.length - 1) {
-                      Navigator.pushReplacementNamed(context, '/login');
-                    } else {
-                      _pc.nextPage(
-                          duration: const Duration(milliseconds: 400),
-                          curve: Curves.easeInOut);
-                    }
-                  },
-                  child: Text(
-                    _page == slides.length - 1 ? 'Get Started' : 'Next',
-                    style: const TextStyle(fontSize: 18),
-                  ),
+                child: Column(
+                  children: [
+                    ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        minimumSize: const Size(double.infinity, 56),
+                        backgroundColor: _page == slides.length - 1
+                            ? Colors.orange
+                            : PalitabTheme.accentWarm,
+                        foregroundColor: Colors.white,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16),
+                        ),
+                      ),
+                      onPressed: () {
+                        if (_page == slides.length - 1) {
+                          Navigator.pushReplacementNamed(context, '/login');
+                        } else {
+                          _pc.nextPage(
+                            duration: const Duration(milliseconds: 400),
+                            curve: Curves.easeInOut,
+                          );
+                        }
+                      },
+                      child: Text(
+                        _page == slides.length - 1 ? 'Get Started' : 'Next',
+                        style: const TextStyle(fontSize: 18),
+                      ),
+                    ),
+                    if (_page == slides.length - 1) ...[
+                      const SizedBox(height: 12),
+                      OutlinedButton(
+                        style: OutlinedButton.styleFrom(
+                          minimumSize: const Size(double.infinity, 56),
+                          foregroundColor: Colors.deepOrange,
+                          side: const BorderSide(color: Colors.deepOrange, width: 2),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(16),
+                          ),
+                        ),
+                        onPressed: () => Navigator.pushReplacementNamed(context, '/login'),
+                        child: const Text(
+                          'Log In',
+                          style: TextStyle(fontSize: 18),
+                        ),
+                      ),
+                    ]
+                  ],
                 ),
               )
             ],

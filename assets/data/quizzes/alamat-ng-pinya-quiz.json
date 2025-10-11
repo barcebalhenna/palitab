@@ -1,0 +1,285 @@
+{
+  "quiz_id": "alamat_ng_pinya_adaptive",
+  "title": "Alamat ng Pinya | The Legend of the Pineapple",
+  "questions": {
+    "english": [
+      {
+        "language": "english",
+        "difficulty": "easy",
+        "skill": "literal comprehension",
+        "type": "multiple choice",
+        "question": "Who were the main characters in the story?",
+        "options": ["Aling Rosa and Pinang", "Pinang and her friends", "A farmer and his wife", "A king and his daughter"],
+        "answer": "Aling Rosa and Pinang"
+      },
+      {
+        "language": "english",
+        "difficulty": "easy",
+        "skill": "literal comprehension",
+        "type": "true/false",
+        "question": "Aling Rosa was a kind mother who loved her daughter very much.",
+        "answer": "True"
+      },
+      {
+        "language": "english",
+        "difficulty": "easy",
+        "skill": "vocabulary",
+        "type": "multiple choice",
+        "question": "What does the word 'spoiled' mean in the story?",
+        "options": ["Well-behaved", "Too pampered or indulged", "Always busy", "Very hardworking"],
+        "answer": "Too pampered or indulged"
+      },
+      {
+        "language": "english",
+        "difficulty": "easy",
+        "skill": "literal comprehension",
+        "type": "multiple choice",
+        "question": "What did Pinang burn while cooking?",
+        "options": ["Rice", "Soup", "Porridge", "Fish"],
+        "answer": "Porridge"
+      },
+      {
+        "language": "english",
+        "difficulty": "easy",
+        "skill": "vocabulary",
+        "type": "true/false",
+        "question": "The word 'eyes' in the story refers to the parts of the pineapple fruit.",
+        "answer": "True"
+      },
+      {
+        "language": "english",
+        "difficulty": "medium",
+        "skill": "inferential comprehension",
+        "type": "multiple choice",
+        "question": "Why did Aling Rosa wish her daughter had many eyes?",
+        "options": ["So she could see better", "So she could find things easily", "Because she wanted her to change", "Because she loved her eyes"],
+        "answer": "So she could find things easily"
+      },
+      {
+        "language": "english",
+        "difficulty": "medium",
+        "skill": "inferential comprehension",
+        "type": "true/false",
+        "question": "Pinang disappeared because she was angry with her mother.",
+        "answer": "False"
+      },
+      {
+        "language": "english",
+        "difficulty": "medium",
+        "skill": "literal comprehension",
+        "type": "multiple choice",
+        "question": "What did Aling Rosa find growing in her garden?",
+        "options": ["A new flower", "A pineapple plant", "A tree", "A mango plant"],
+        "answer": "A pineapple plant"
+      },
+      {
+        "language": "english",
+        "difficulty": "medium",
+        "skill": "vocabulary",
+        "type": "multiple choice",
+        "question": "What does the word 'wept' mean?",
+        "options": ["Laughed loudly", "Cried softly", "Fell asleep", "Talked quietly"],
+        "answer": "Cried softly"
+      },
+      {
+        "language": "english",
+        "difficulty": "medium",
+        "skill": "inferential comprehension",
+        "type": "multiple choice",
+        "question": "What lesson can be learned from the story?",
+        "options": [
+          "Children should always obey their parents.",
+          "We must be responsible and helpful.",
+          "Plants are magical.",
+          "Never cook when you are tired."
+        ],
+        "answer": "We must be responsible and helpful."
+      },
+      {
+        "language": "english",
+        "difficulty": "hard",
+        "skill": "inferential comprehension",
+        "type": "multiple choice",
+        "question": "What does the transformation of Pinang into a pineapple symbolize?",
+        "options": [
+          "Her mother’s deep sorrow",
+          "The consequence of laziness and disobedience",
+          "The love between mother and child",
+          "A magical event in nature"
+        ],
+        "answer": "The consequence of laziness and disobedience"
+      },
+      {
+        "language": "english",
+        "difficulty": "hard",
+        "skill": "literal comprehension",
+        "type": "true/false",
+        "question": "The pineapple plant was already in Aling Rosa’s garden before Pinang disappeared.",
+        "answer": "False"
+      },
+      {
+        "language": "english",
+        "difficulty": "hard",
+        "skill": "vocabulary",
+        "type": "multiple choice",
+        "question": "What is the meaning of the word 'realized' as used in the story?",
+        "options": ["To remember something", "To understand something clearly", "To make something happen", "To hope for something"],
+        "answer": "To understand something clearly"
+      },
+      {
+        "language": "english",
+        "difficulty": "hard",
+        "skill": "inferential comprehension",
+        "type": "multiple choice",
+        "question": "How did Aling Rosa show her love for Pinang even after her disappearance?",
+        "options": [
+          "She planted new flowers",
+          "She cared for the strange plant she found",
+          "She moved to another village",
+          "She stopped doing chores"
+        ],
+        "answer": "She cared for the strange plant she found"
+      },
+      {
+        "language": "english",
+        "difficulty": "hard",
+        "skill": "inferential comprehension",
+        "type": "true/false",
+        "question": "The story suggests that wishes can come true in unexpected and sometimes sad ways.",
+        "answer": "True"
+      }
+    ],
+    "filipino": [
+      {
+        "language": "filipino",
+        "difficulty": "madali",
+        "skill": "literal na pag-unawa",
+        "type": "multiple choice",
+        "question": "Sino ang mga pangunahing tauhan sa kuwento?",
+        "options": ["Aling Rosa at Pinang", "Pinang at mga kaibigan", "Isang magsasaka at asawa niya", "Hari at prinsesa"],
+        "answer": "Aling Rosa at Pinang"
+      },
+      {
+        "language": "filipino",
+        "difficulty": "madali",
+        "skill": "literal na pag-unawa",
+        "type": "true/false",
+        "question": "Si Aling Rosa ay isang mapagmahal na ina kay Pinang.",
+        "answer": "Tama"
+      },
+      {
+        "language": "filipino",
+        "difficulty": "madali",
+        "skill": "bokabularyo",
+        "type": "multiple choice",
+        "question": "Ano ang ibig sabihin ng 'lumaki sa layaw'?",
+        "options": ["Masunurin", "Labis na napabayaan", "Nasanay sa kaginhawaan o luho", "Masipag"],
+        "answer": "Nasanay sa kaginhawaan o luho"
+      },
+      {
+        "language": "filipino",
+        "difficulty": "madali",
+        "skill": "literal na pag-unawa",
+        "type": "multiple choice",
+        "question": "Ano ang niluto ni Pinang para sa kanyang ina?",
+        "options": ["Kanin", "Lugaw", "Isda", "Gulay"],
+        "answer": "Lugaw"
+      },
+      {
+        "language": "filipino",
+        "difficulty": "madali",
+        "skill": "bokabularyo",
+        "type": "true/false",
+        "question": "Ang mga 'mata' ng pinya ay tumutukoy sa mga bahagi ng bunga nito.",
+        "answer": "Tama"
+      },
+      {
+        "language": "filipino",
+        "difficulty": "katamtaman",
+        "skill": "inferensyal na pag-unawa",
+        "type": "multiple choice",
+        "question": "Bakit hiniling ni Aling Rosa na sana'y magkaroon ng maraming mata si Pinang?",
+        "options": ["Para makakita siya ng mas malinaw", "Para madali niyang makita ang mga bagay", "Dahil gusto niyang magbago ang anak", "Dahil maganda ang mga mata ni Pinang"],
+        "answer": "Para madali niyang makita ang mga bagay"
+      },
+      {
+        "language": "filipino",
+        "difficulty": "katamtaman",
+        "skill": "inferensyal na pag-unawa",
+        "type": "true/false",
+        "question": "Nawala si Pinang dahil nagalit siya sa kanyang ina.",
+        "answer": "Mali"
+      },
+      {
+        "language": "filipino",
+        "difficulty": "katamtaman",
+        "skill": "literal na pag-unawa",
+        "type": "multiple choice",
+        "question": "Ano ang nakita ni Aling Rosa sa kanyang bakuran?",
+        "options": ["Bagong bulaklak", "Halaman ng pinya", "Puno ng mangga", "Palumpong"],
+        "answer": "Halaman ng pinya"
+      },
+      {
+        "language": "filipino",
+        "difficulty": "katamtaman",
+        "skill": "bokabularyo",
+        "type": "multiple choice",
+        "question": "Ano ang ibig sabihin ng salitang 'nanangis'?",
+        "options": ["Tumawa", "Umiyak", "Natulog", "Nagdasal"],
+        "answer": "Umiyak"
+      },
+      {
+        "language": "filipino",
+        "difficulty": "katamtaman",
+        "skill": "inferensyal na pag-unawa",
+        "type": "multiple choice",
+        "question": "Ano ang aral na makukuha sa alamat?",
+        "options": ["Dapat maging masunurin at matulungin sa magulang.", "Maging matapang sa buhay.", "Huwag kumain ng pinya.", "Ang mga halaman ay mahiwaga."],
+        "answer": "Dapat maging masunurin at matulungin sa magulang."
+      },
+      {
+        "language": "filipino",
+        "difficulty": "mahirap",
+        "skill": "inferensyal na pag-unawa",
+        "type": "multiple choice",
+        "question": "Ano ang sinisimbolo ng pagkakapinang ni Pinang sa pinya?",
+        "options": ["Kalungkutan ng ina", "Parusa sa katamaran at pagsuway", "Pag-ibig ng mag-ina", "Himala ng kalikasan"],
+        "answer": "Parusa sa katamaran at pagsuway"
+      },
+      {
+        "language": "filipino",
+        "difficulty": "mahirap",
+        "skill": "literal na pag-unawa",
+        "type": "true/false",
+        "question": "Bago nawala si Pinang, may halaman na ng pinya sa bakuran nila.",
+        "answer": "Mali"
+      },
+      {
+        "language": "filipino",
+        "difficulty": "mahirap",
+        "skill": "bokabularyo",
+        "type": "multiple choice",
+        "question": "Ano ang ibig sabihin ng salitang 'napagtanto' sa kuwento?",
+        "options": ["Naalala", "Naunawaan", "Inasam", "Pinagsisihan"],
+        "answer": "Naunawaan"
+      },
+      {
+        "language": "filipino",
+        "difficulty": "mahirap",
+        "skill": "inferensyal na pag-unawa",
+        "type": "multiple choice",
+        "question": "Paano ipinakita ni Aling Rosa ang pagmamahal kay Pinang matapos itong mawala?",
+        "options": ["Inalagaan niya ang kakaibang halaman", "Nagpunta siya sa bayan", "Tinanim niya ang mga buto", "Hindi na siya kumain"],
+        "answer": "Inalagaan niya ang kakaibang halaman"
+      },
+      {
+        "language": "filipino",
+        "difficulty": "mahirap",
+        "skill": "inferensyal na pag-unawa",
+        "type": "true/false",
+        "question": "Ipinahihiwatig ng alamat na ang mga kahilingan ay maaaring magkatotoo sa hindi inaasahang paraan.",
+        "answer": "Tama"
+      }
+    ]
+  }
+}

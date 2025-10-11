@@ -1,0 +1,30 @@
+{
+  "title": "Alamat ng Pinya",
+  "scenes": [
+    {
+      "img": "assets/images/stories/alamat-ng-pinya/scene1-alamat.png",
+      "en": "A long time ago, in a quiet village, there lived a kind woman named Aling Rosa and her only daughter, Pinang. Aling Rosa loved Pinang very much, but because of her love, she spoiled her daughter. Aling Rosa wanted Pinang to learn how to cook, clean, and help around the house. But Pinang always said, “I already know how to do that!” So she never really learned, and her mother eventually gave up teaching her.",
+      "fil": "Noong unang panahon may nakatirang mag-ina sa isang malayong pook. Ang ina ay si Aling Rosa at ang anak ay si Pinang. Mahal na mahal ni Aling Rosa ang kanyang bugtong na anak. Kaya lumaki si Pinang sa layaw. Gusto ng ina na matuto si Pinang ng mga gawaing bahay, ngunit laging ikinakatwiran ni Pinang na alam na niyang gawin ang mga itinuturo ng ina. Kaya't pinabayaan na lang niya ang kanyang anak."
+    },
+    {
+      "img": "assets/images/stories/alamat-ng-pinya/scene2-alamat.png",
+      "en": "One day, Aling Rosa became very sick. She could not get out of bed to do the chores. She asked Pinang to cook porridge for her. Pinang tried, but instead of watching the pot, she went out to play. The porridge burned and stuck to the pot. Still, Aling Rosa did not scold her. She was simply glad that her daughter had at least tried.",
+      "fil": "Isang araw nagkasakit si Aling Rosa. Hindi siya makabangon at makagawa ng gawaing bahay. Inutusan niya si Pinang na magluto ng lugaw. Isinalang ni Pinang ang lugaw ngunit napabayaan dahil sa kalalaro. Ang lugaw ay dumikit sa palayok at nasunog. Nagpasensiya na lang si Aling Rosa, napagsilbihan naman siya kahit paano ng anak."
+    },
+    {
+      "img": "assets/images/stories/alamat-ng-pinya/scene3-alamat.png",
+      "en": "As the days went by, Aling Rosa grew weaker, and Pinang had to do more chores. But Pinang always had trouble finding things. “Mother, where are the matches?” she asked. “Mother, where is the ladle?” she asked again. Every time something was missing, Pinang would call her mother instead of looking carefully. Finally, Aling Rosa grew annoyed and said, “Oh, Pinang! I wish you had many eyes so you could find everything without asking me again and again!”",
+      "fil": "Nagtagal ang sakit ni Aling Rosa kaya't napilitang si Pinang ang gumagawa sa bahay. Isang araw, sa kanyang pagluluto hindi niya makita ang posporo. Tinanong ang kanyang ina kung nasaan ito. Isang beses naman ay ang sandok ang hinahanap. Ganoon ng ganoon ang nangyayari. Walang bagay na di makita at agad tinatanong ang kanyang ina. Nayamot si Aling Rosa sa katatanong ng anak kaya´t nawika nito: 'Naku! Pinang, sana'y magkaroon ka ng maraming mata upang makita mo ang lahat ng bagay at hindi ka na tanong nang tanong sa akin.'"
+    },
+    {
+      "img": "assets/images/stories/alamat-ng-pinya/scene4-alamat.png",
+      "en": "Pinang grew quiet, knowing her mother was upset. She went off to look for the ladle, but that night, she never returned home. Aling Rosa became worried. She called and searched for her daughter, but Pinang was nowhere to be found. Days passed, and Pinang was still missing.",
+      "fil": "Dahil alam niyang galit na ang kanyang ina ay di na umimik si Pinang. Umalis siya upang hanapin ang sandok na hinahanap. Kinagabihan, wala si Pinang sa bahay. Nabahala si Aling Rosa. Tinatawag niya ang anak ngunit walang sumasagot. Napilitan siyang bumangon at naghanda ng pagkain. Pagkaraan ng ilang araw ay magaling-galing na si Aling Rosa. Hinanap niya si Pinang. Tinanong niya ang mga kapitbahay kung nakita nila ang kanyang anak. Ngunit naglahong parang bula si Pinang. Hindi na nakita ni Aling Rosa si Pinang."
+    },
+    {
+      "img": "assets/images/stories/alamat-ng-pinya/scene5-alamat.png",
+      "en": "One morning, while tending the garden, Aling Rosa noticed a strange plant she had never seen before. She cared for it until it grew a fruit. To her surprise, the fruit was shaped like a head, covered with many “eyes.” Aling Rosa remembered her last words to Pinang and wept. She realized that her wish had come true in a way she never wanted. From then on, she cared for the plant dearly and called it Pinang, after her daughter. As time went by, people came to know the fruit as pineapple.",
+      "fil": "Isang araw, may nakitang halaman si Aling Rosa sa kanyang bakuran. Hindi niya alam kung anong uri ang halamang iyon. Inalagaan niyang mabuti hanggang sa ito'y magbunga. Laking pagkamangha ni Aling Rosa ng makita ang anyo ng bunga nito. Ito'y hugis-ulo ng tao at napapalibutan ng mata. Biglang naalaala ni Aling Rosa ang huli niyang sinabi kay Pina, na sana'y magkaroon ito ng maraming mata para makita ang kanyang hinahanap. Tahimik na nanangis si Aling Rosa at laking pagsisisi dahil tumalab ang kanyang sinabi sa anak. Inalagaan niyang mabuti ang halaman at tinawag itong Pinang, Sa palipat-lipat sa bibig ng mga tao ang pinang ay naging pinya."
+    }
+  ]
+}

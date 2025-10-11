@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'theme.dart';
 import 'pages/onboarding_page.dart';
-import 'pages/login_signup_page.dart';
-import 'pages/teacher_dashboard_page.dart';
+import 'pages/role_selection_page.dart';
+import 'pages/teacher_main_page.dart';
 import 'pages/child_home_wrapper.dart';
 import 'pages/alamat_story_page.dart';
 import 'pages/teacher_login_page.dart';
@@ -22,10 +22,10 @@ class PalitabApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (_) => OnboardingPage(),
-        '/login': (_) => LoginSignupPage(),
+        '/login': (_) => RoleSelectionPage(),
         '/teacher-login': (_) => TeacherLoginPage(),
         '/child-login': (_) => ChildLoginPage(),
-        '/teacher': (_) => TeacherDashboardPage(),
+        '/teacher': (_) => TeacherMainPage(),
         '/child': (_) => ChildHomeWrapper(),
         '/alamat': (_) => AlamatStoryPage(),
       },

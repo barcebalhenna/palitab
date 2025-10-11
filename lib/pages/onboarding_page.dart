@@ -20,12 +20,12 @@ class _OnboardingPageState extends State<OnboardingPage> {
     {
       'title': 'Unlock Stories & Quizzes',
       'body': 'Earn stars and XP as you read, play, and learn — unlock more adventures!',
-      'image': 'assets/images/onboard_quiz.svg',
+      'image': 'assets/images/onboard_quiz.png',
     },
     {
       'title': 'For Parents & Teachers',
       'body': 'Track progress with secure dashboards and listening tools that support every child’s growth.',
-      'image': 'assets/images/onboard_teacher.svg',
+      'image': 'assets/images/onboard_teacher.png',
     }
   ];
 
@@ -66,12 +66,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                       child: Column(
                         children: [
                           Expanded(
-                            child: s['image']!.endsWith('.svg')
-                                ? SvgPicture.asset(
-                              s['image']!,
-                              fit: BoxFit.contain,
-                            )
-                                : Image.asset(
+                            child: Image.asset(
                               s['image']!,
                               fit: BoxFit.contain,
                             ),

@@ -56,8 +56,8 @@ dev_dependencies:
 flutter:
   assets:
     - assets/images/onboard_reading.png
-    - assets/images/onboard_quiz.svg
-    - assets/images/onboard_teacher.svg
+    - assets/images/onboard_quiz.png
+    - assets/images/onboard_teacher.png
     - assets/images/map_bg.png
     - assets/images/cloud1.png
     - assets/images/cloud2.png
@@ -65,10 +65,15 @@ flutter:
     - assets/images/ggi_alamatngpinya.png
     - assets/images/ggi_mariamakiling.png
     - assets/images/ggi_monkey-turtle.png
-    - assets/images/stories/alamat-ng-pinya/scene1-alamat.png
-    - assets/images/stories/alamat-ng-pinya/scene2-alamat.png
-    - assets/images/stories/alamat-ng-pinya/scene3-alamat.png
-    - assets/images/stories/alamat-ng-pinya/scene4-alamat.png
+    - assets/data/stories/alamat-ng-pinya.json
+    - assets/data/quizzes/alamat-ng-pinya-quiz.json
+    - assets/images/stories/alamat-ng-pinya/
+    - assets/images/stories/pagong-at-matsing/
+  fonts:
+    - family: PatrickHand
+      fonts:
+        - asset: assets/fonts/PatrickHand-Regular.ttf
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
